@@ -1,0 +1,53 @@
+@import "../components/variaveis";
+
+footer {
+  margin-top: 20rem;
+  background: $cor-primaria;
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    .info {
+      h1 {
+        font-size: 2rem;
+        border-bottom: 1px solid $cor-2;
+      }
+      nav {
+        li {
+          width: 80%;
+          p {
+            font-family: $fonte-principal;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    div {
+      nav {
+        &:nth-child(2) {
+          margin-top: 5rem;
+        }
+        li {
+          h2 {
+            font-family: $fonte-principal;
+            font-size: 2rem;
+            color: $cor-escura;
+          }
+          a {
+            font-size: 1.2rem;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    img {
+      width: 15%;
+      height: 100%;
+    }
+  }
+}

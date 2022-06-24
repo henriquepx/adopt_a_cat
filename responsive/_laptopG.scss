@@ -1,0 +1,31 @@
+@media (min-width: 1140px) {
+  section {
+    div {
+      top: 50px;
+      right: -260px;
+      p {
+        max-width: 40ch;
+      }
+    }
+  }
+  .container_card {
+    a {
+      padding: 2rem;
+      background: $cor-escura;
+      color: white;
+      font-size: 1.4;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-decoration: none;
+      list-style: none;
+      &:hover {
+        border-radius: 20px;
+        background: $cor-2;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+      }
+    }
+  }
+}

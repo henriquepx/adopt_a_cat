@@ -1,0 +1,46 @@
+section {
+  padding: 5rem 5rem 37rem 5rem;
+  display: flex;
+  justify-content: center;
+  img {
+    position: absolute;
+    align-items: center;
+    width: 70%;
+    height: auto;
+  }
+  div {
+    position: relative;
+    top: 150px;
+    right: -300px;
+    text-align: center;
+    h1 {
+      font-family: $fonte-principal;
+      color: $cor-3;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      text-align: center;
+      font-size: 1.1rem;
+      max-width: 70ch;
+      margin-bottom: 2rem;
+    }
+    a {
+      text-decoration: none;
+      background: $cor-3;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      padding: 1rem;
+      color: $cor-secundaria;
+      font-weight: bold;
+      &:hover {
+        background: $cor-secundaria;
+        border: 2px solid $cor-3;
+        color: $cor-3;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+    }
+  }
+}
